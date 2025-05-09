@@ -1,6 +1,7 @@
 {
   "name": "tyre-calculator",
   "version": "0.1.0",
+  "homepage": "https://Kyro84.github.io/tyre-calculator",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
