@@ -1,0 +1,162 @@
+/* #select-page {
+    position: relative;
+} */
+
+.select-conteiner, .title-select, .header-select {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title-select, .header-select, .select-value {
+    font-size: 25px;
+}
+
+.title-select, .header-select {
+    font-family: 'Bebas Neue';
+    color: #000;
+}
+
+.select-value {
+    padding: 25px 0 0px;
+}
+
+.old-size, .new-size {
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 0 auto 20px;
+    padding: 8px;
+    width: 300px;
+}
+.old-size {
+    background-color: #fec400;
+}
+
+.new-size {
+    background-color: #e36804;
+}
+
+.title-select {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.select-item {
+    font-family: 'latomedium';
+    font-size: 25px;
+    border-radius: 3px;
+    border-color: #fff;
+    margin: 0 5px;
+}
+
+.horizontal-line {
+    background-color: #fff;
+}
+
+.visual-value {
+    background: url(./img/visual-result.jpg) no-repeat top center;
+	background-size: cover;
+    margin: 10px;
+    position: relative;
+    height: 230px;
+    max-width: 100%;
+}
+
+.old-width, .old-height, .old-diameter, .new-width, .new-height, .new-diameter {
+    box-sizing: border-box;
+    border-radius: 8px;
+    position: absolute;
+    font-size: 14px;
+    padding: 2px 3px;
+}
+
+.old-width, .old-height, .old-diameter {
+    background-color: #fec400;
+}
+.new-width, .new-height, .new-diameter {
+    background-color: #e36804;
+}
+
+.old-width, .new-width {
+    top: 5px;
+}
+
+.old-width {
+    right: 222px;
+}
+
+.new-width {
+    left: 215px;
+}
+
+.old-height, .new-height {
+    top: 60px;
+}
+
+.old-height {
+    left: 15px;
+}
+
+.new-height {
+    right: 15px;
+}
+
+.old-diameter, .new-diameter {
+    bottom: 60px;
+}
+
+.old-diameter {
+    right: 270px;
+}
+
+.new-diameter {
+    left: 270px;
+}
+
+/* Adaptive */
+
+@media (min-width: 768px) {
+
+    #conteiner {
+        height: 667px;
+        width: 375px;
+    }
+
+    .visual-value {
+        margin: 5% auto;
+        height: 300px;
+        width: 520px;
+    }
+
+    .old-width {
+        right: 325px;
+    }
+    
+    .new-width {
+        left: 310px;
+    }
+
+    .old-height, .new-height {
+        top: 80px;
+    }
+    
+    .old-height {
+        left: 30px;
+    }
+    
+    .new-height {
+        right: 30px;
+    }
+
+    .old-diameter, .new-diameter {
+        bottom: 70px;
+    }
+    
+    .old-diameter {
+        right: 430px;
+    }
+    
+    .new-diameter {
+        left: 430px;
+    }
+
+}
