@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/tyre-calculator/static/css/main.39f26be3.css",
+    "main.js": "/tyre-calculator/static/js/main.c3fc7312.js",
+    "static/media/bg.jpg": "/tyre-calculator/static/media/bg.642f18c44e451b59abdf.jpg",
+    "static/media/bg-footer.jpg": "/tyre-calculator/static/media/bg-footer.d996ea26fed1bfb1bf9e.jpg",
+    "static/media/visual-result.jpg": "/tyre-calculator/static/media/visual-result.26ecf05d0d0e633b1e94.jpg",
+    "static/media/lato-regular-webfont.woff": "/tyre-calculator/static/media/lato-regular-webfont.3877293b19d4f60374b1.woff",
+    "static/media/lato-medium-webfont.woff": "/tyre-calculator/static/media/lato-medium-webfont.1356fa0b10f8a325c0f4.woff",
+    "static/media/lato-black-webfont.woff": "/tyre-calculator/static/media/lato-black-webfont.926cfc1cf43500b41e6c.woff",
+    "static/media/lato-regular-webfont.woff2": "/tyre-calculator/static/media/lato-regular-webfont.0b774a547c7bdca1ba45.woff2",
+    "static/media/lato-medium-webfont.woff2": "/tyre-calculator/static/media/lato-medium-webfont.a22d16599896223652e8.woff2",
+    "static/media/lato-black-webfont.woff2": "/tyre-calculator/static/media/lato-black-webfont.5d5cb813a44d681f34b3.woff2",
+    "static/media/yugothic-webfont.woff": "/tyre-calculator/static/media/yugothic-webfont.54435a564d6b041d9342.woff",
+    "static/media/yugothic-webfont.woff2": "/tyre-calculator/static/media/yugothic-webfont.5d88499b540440ea356e.woff2",
+    "static/media/bebasneuebold.woff": "/tyre-calculator/static/media/bebasneuebold.e9a1d1540e2dc38042c4.woff",
+    "static/media/bebasneuebold.woff2": "/tyre-calculator/static/media/bebasneuebold.beb6b9047e5df8aa73cc.woff2",
+    "index.html": "/tyre-calculator/index.html",
+    "main.39f26be3.css.map": "/tyre-calculator/static/css/main.39f26be3.css.map",
+    "main.c3fc7312.js.map": "/tyre-calculator/static/js/main.c3fc7312.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39f26be3.css",
+    "static/js/main.c3fc7312.js"
+  ]
+}
