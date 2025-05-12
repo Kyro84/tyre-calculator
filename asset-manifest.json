@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tyre-calculator/static/css/main.592c6a9c.css",
+    "main.css": "/tyre-calculator/static/css/main.64aa08b1.css",
     "main.js": "/tyre-calculator/static/js/main.e6380932.js",
     "static/media/bg.jpg": "/tyre-calculator/static/media/bg.6262b7c1e2e707821583.jpg",
     "static/media/bg-footer.jpg": "/tyre-calculator/static/media/bg-footer.d996ea26fed1bfb1bf9e.jpg",
@@ -16,11 +16,11 @@
     "static/media/bebasneuebold.woff": "/tyre-calculator/static/media/bebasneuebold.e9a1d1540e2dc38042c4.woff",
     "static/media/bebasneuebold.woff2": "/tyre-calculator/static/media/bebasneuebold.beb6b9047e5df8aa73cc.woff2",
     "index.html": "/tyre-calculator/index.html",
-    "main.592c6a9c.css.map": "/tyre-calculator/static/css/main.592c6a9c.css.map",
+    "main.64aa08b1.css.map": "/tyre-calculator/static/css/main.64aa08b1.css.map",
     "main.e6380932.js.map": "/tyre-calculator/static/js/main.e6380932.js.map"
   },
   "entrypoints": [
-    "static/css/main.592c6a9c.css",
+    "static/css/main.64aa08b1.css",
     "static/js/main.e6380932.js"
   ]
 }
