@@ -110,8 +110,9 @@ export class Result extends React.Component {
                 <div id='container'>
                     <div id='result-page'>
                         <div className='curent-size'>
+                            <p className='curent-size-title'>Новий розмір</p>
                             <div className='curent-size-conteiner'>
-                                <p className='curent-size-title'>Новий розмір</p>
+                                
                                 <div className='curent-size-item'>
                                     {this.props.newWidth}
                                 </div>
@@ -181,7 +182,9 @@ export class Result extends React.Component {
                             </div>
                             </div>
                     </div>
-                    <button className='button button-result' onClick={() => this.changePage('select-value')}>Назад</button>
+                    <div className='basement'>
+                        <button className='button button-result' onClick={() => this.changePage('select-value')}>Назад</button>
+                    </div>
                 </div>
             );
         }

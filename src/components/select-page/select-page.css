@@ -1,23 +1,21 @@
-/* #select-page {
-    position: relative;
-} */
+#select-page {
+    flex: 1;
+    width: 100%;
+    padding: 8px;
+}
 
-.select-conteiner, .title-select, .header-select {
+.title-select, .heder-chenges, .select-conteiner {
     text-align: center;
     text-transform: uppercase;
 }
 
-.title-select, .header-select, .select-value {
-    font-size: 25px;
+.title-select, .heder-chenges, .select-value {
+    font-size: 18px;
 }
 
-.title-select, .header-select {
+.title-select, .heder-chenges {
     font-family: 'Bebas Neue';
     color: #000;
-}
-
-.select-value {
-    padding: 25px 0 0px;
 }
 
 .old-size, .new-size {
@@ -41,11 +39,107 @@
 }
 
 .select-item {
-    font-family: 'latomedium';
+    /* font-family: 'latomedium';*/
     font-size: 25px;
-    border-radius: 3px;
+    /*border-radius: 3px;
     border-color: #fff;
-    margin: 0 5px;
+    margin: 0 5px; */
+/* ____________________________________________________________________________ */
+  appearance: base-select;
+  color: #71717a;
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 1px solid #e4e4e7;
+  border-radius: calc(0.5rem - 2px);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+
+  & > button {
+    display: flex;
+    width: 100%;
+    font-family: inherit;
+    color: currentColor;
+
+    & > svg {
+      margin: 5px 0 0 auto;
+      width: 1.2rem;
+      height: 1.2rem;
+    }
+  }
+
+  &:has(option:not([hidden]):checked) {
+    color: #000;
+  }
+
+  &:focus-visible {
+    outline: 2px solid #a1a1aa;
+    outline-offset: -1px;
+  }
+
+  &::picker-icon {
+    display: none;
+  }
+
+  &::picker(select) {
+    appearance: base-select;
+    border: 1px solid #e4e4e7;
+    padding: 0.25rem;
+    margin-top: 0.25rem;
+    border-radius: calc(0.5rem - 2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    cursor: default;
+    transition: opacity 225ms ease-in-out, transform 225ms ease-in-out;
+    transform-origin: top;
+    transform: translateY(0);
+    opacity: 1;
+    
+    @starting-style {
+      transform: translateY(-0.25rem) scale(0.95);
+      opacity: 0;
+    }
+  }
+
+  & optgroup label {
+    display: block;
+    padding: 0.375rem 0.5rem;
+  }
+
+  & option {
+    padding: 0.375rem 0.5rem;
+    border-radius: calc(0.5rem - 4px);
+    outline: none;
+
+    &::after {
+      content: "";
+      width: 1rem;
+      height: 1.5rem;
+      margin-left: auto;
+      opacity: 0;
+      background: center / contain no-repeat
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%2318181b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6 9 17l-5-5'%3E%3C/path%3E%3C/svg%3E");
+    }
+
+    &::checkmark {
+      display: none;
+    }
+
+    &:checked {
+      background-color: transparent;
+
+      &::after {
+        opacity: 1;
+      }
+    }
+
+    &:hover,
+    &:focus-visible {
+      background-color: #f4f4f5;
+      color: #18181b;
+    }
+  }
+/* _______________________________________________________________________________ */
+
 }
 
 .horizontal-line {
@@ -55,7 +149,6 @@
 .visual-value {
     background: url(./img/visual-result.jpg) no-repeat top center;
 	background-size: cover;
-    margin: 10px;
     position: relative;
     height: 230px;
     max-width: 100%;
@@ -110,53 +203,4 @@
 
 .new-diameter {
     left: 270px;
-}
-
-/* Adaptive */
-
-@media (min-width: 768px) {
-
-    #conteiner {
-        height: 667px;
-        width: 375px;
-    }
-
-    .visual-value {
-        margin: 5% auto;
-        height: 300px;
-        width: 520px;
-    }
-
-    .old-width {
-        right: 325px;
-    }
-    
-    .new-width {
-        left: 310px;
-    }
-
-    .old-height, .new-height {
-        top: 80px;
-    }
-    
-    .old-height {
-        left: 30px;
-    }
-    
-    .new-height {
-        right: 30px;
-    }
-
-    .old-diameter, .new-diameter {
-        bottom: 70px;
-    }
-    
-    .old-diameter {
-        right: 430px;
-    }
-    
-    .new-diameter {
-        left: 430px;
-    }
-
 }

@@ -139,28 +139,76 @@ export class SelectValuePage extends React.Component {
             <div className='old-size'>
               <p className='title-select'>Початковий розмір</p>
               <div className='select-conteiner'>
-                <select className='select-item' value={this.props.value} onChange={this.onOptionChange0.bind(this)}>{tags0}</select>
+                <select className='select-item' value={this.props.value} onChange={this.onOptionChange0.bind(this)}>
+                  <button>
+                    <selectedcontent></selectedcontent>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="m6 9 6 6 6-6"></path>
+                    </svg>
+                  </button>
+                  {tags0}
+                </select>
                 &nbsp;/&nbsp;
-                <select className='select-item' value={this.props.value} onChange={this.onOptionChange1.bind(this)}>{tags1}</select>
+                <select className='select-item' value={this.props.value} onChange={this.onOptionChange1.bind(this)}>
+                  <button>
+                    <selectedcontent></selectedcontent>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="m6 9 6 6 6-6"></path>
+                    </svg>
+                  </button>
+                  {tags1}
+                </select>
                 &nbsp;R&nbsp;
-                <select className='select-item' value={this.props.value} onChange={this.onOptionChange2.bind(this)}>{tags2}</select>
+                <select className='select-item' value={this.props.value} onChange={this.onOptionChange2.bind(this)}>
+                  <button>
+                    <selectedcontent></selectedcontent>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="m6 9 6 6 6-6"></path>
+                    </svg>
+                  </button>
+                  {tags2}
+                </select>
               </div>
             </div>
 
             <div className='new-size'>
               <p className='title-select'>Новий розмір</p>
               <div className='select-conteiner'>
-                <select className='select-item' value={this.props.value} onChange={this.onOptionChange3.bind(this)}>{tags3}</select>
+                <select className='select-item' value={this.props.value} onChange={this.onOptionChange3.bind(this)}>
+                  <button>
+                    <selectedcontent></selectedcontent>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="m6 9 6 6 6-6"></path>
+                    </svg>
+                  </button>
+                  {tags3}
+                </select>
                 &nbsp;/&nbsp;
-                <select className='select-item' value={this.props.value} onChange={this.onOptionChange4.bind(this)}>{tags4}</select>
+                <select className='select-item' value={this.props.value} onChange={this.onOptionChange4.bind(this)}>
+                  <button>
+                    <selectedcontent></selectedcontent>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="m6 9 6 6 6-6"></path>
+                    </svg>
+                  </button>
+                  {tags4}
+                </select>
                 &nbsp;R&nbsp;
-                <select className='select-item' value={this.props.value} onChange={this.onOptionChange5.bind(this)}>{tags5}</select>
+                <select className='select-item' value={this.props.value} onChange={this.onOptionChange5.bind(this)}>
+                  <button>
+                    <selectedcontent></selectedcontent>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="m6 9 6 6 6-6"></path>
+                    </svg>
+                  </button>
+                  {tags5}
+                </select>
                 </div>
             </div>
           </div>
 
           <div className='horizontal-line'>
-            <p className='header-select'>Зміни</p>
+            <p className='heder-chenges'>Зміни</p>
           </div>
 
           <div className='visual-value' >

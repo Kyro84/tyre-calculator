@@ -6,7 +6,7 @@ export function WelcomePage(props) {
       <div id='container'>
         <div className='header'>
           <h1>Шинний калькулятор</h1>
-          <p>TyreCalculator.com</p>
+          <p>www.example.com</p>
         </div>
         
         <div className='basement'>

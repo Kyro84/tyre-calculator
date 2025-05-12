@@ -1,15 +1,17 @@
 #container {
-    background: url(./img/bg.jpg) no-repeat top center;
-	background-size: cover;
-    position: relative;
-    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 0 50px;
 }
 
 .header {
     padding-top: 100px;
+    flex: 1;
+    width: 100%;
 }
 
-h1, .button, .header p {
+h1, .header p, .button {
     text-transform: uppercase;
     text-align: center;
 }
@@ -28,7 +30,8 @@ h1 {
 }
 
 .basement {
-    bottom: 10px;
+    flex: 1;
+    width: 100%;
 }
 
 .button {
@@ -38,13 +41,13 @@ h1 {
     box-sizing: border-box;
     font-family: 'Bebas Neue';
     cursor: pointer;
-    font-size: 30px;
+    font-size: 18px;
     border-radius: 8px;
     border-color: #000;
     padding: 10px 0;
     color: #fff;
     background: #000;
-    bottom: 35px;
+    bottom: 70px;
     position: absolute;
 }
 
@@ -54,3 +57,51 @@ h1 {
     box-shadow:0 0 15px #e36704;
     border: 1px solid #e36704;
 }
+
+/* Adaptive */
+
+/* @media (min-width: 768px) {
+
+    #conteiner {
+        width: 768px;
+    }
+
+    .visual-value {
+        margin: 5% auto;
+        height: 300px;
+        width: 520px;
+    }
+
+    .old-width {
+        right: 325px;
+    }
+    
+    .new-width {
+        left: 310px;
+    }
+
+    .old-height, .new-height {
+        top: 80px;
+    }
+    
+    .old-height {
+        left: 30px;
+    }
+    
+    .new-height {
+        right: 30px;
+    }
+
+    .old-diameter, .new-diameter {
+        bottom: 70px;
+    }
+    
+    .old-diameter {
+        right: 430px;
+    }
+    
+    .new-diameter {
+        left: 430px;
+    }
+
+} */
